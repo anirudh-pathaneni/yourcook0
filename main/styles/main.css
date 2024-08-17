@@ -1,0 +1,93 @@
+main {
+  margin-top: 50px;
+  /* border: solid;
+  border-color: red; */
+}
+
+.recommended-section {
+  font-size: 20px;
+  font-weight: 700;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.chef-recommended-grid {
+  font-size: 16px;
+  font-weight: 500;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  /* border: solid;
+  border-color: red; */
+}
+
+.chef-details-container{
+  padding-left: 100px;
+  margin-bottom: 10px;
+}
+
+.chef-details-container div {
+  margin-bottom: 10px;
+}
+
+.book-button,
+.book-now-button {
+  margin-top: 10px;
+  background-color: white;
+  border-style: solid;
+  font-size: 18px;
+  font-weight: lighter;
+  padding: 10px 50px;
+  cursor: pointer;
+}
+
+.book-now-button {
+  white-space: nowrap;
+}
+
+.chef-details-container img {
+  margin-bottom: 30px;
+  width: 200px;
+  height: 200px;
+}
+
+.book-cook {
+  display: grid;
+  grid-template-columns: 180px;
+}
+
+.input-date {
+  width: 180px;
+  height: 40px;
+  font-size: 16px;
+  border: solid;
+  border-width: 2px;
+}
+
+.website-info {
+  background-color: black;
+  color: white;
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  justify-content: space-between;
+  padding: 100px 200px 100px 200px;
+
+}
+
+.website-info-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  background-color: white;
+  color: black;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.website-info-box img {
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+}
